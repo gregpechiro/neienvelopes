@@ -1,0 +1,20 @@
+/* theme colors */
+a, .table thead td {
+	color: #336699;
+}
+a:hover {
+	color: #2d2d2d;
+}
+#menu li a:hover, #menu li a.current {
+	border-bottom: 1px solid #336699;
+}
+.overlay, input.submit {
+	background: #336699;
+}
+.bit {
+	border-left: 1px solid #336699;
+	background: url(/static/images/dark_blue_bullet.png) no-repeat;
+}
+#newsletter input.submit {
+	background: url(/static/images/dark_blue_submit.png) no-repeat;
+}
